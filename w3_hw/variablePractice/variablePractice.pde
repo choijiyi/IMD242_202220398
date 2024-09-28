@@ -7,9 +7,6 @@ float b = random(255);
 void setup() {
   size(800, 800);
   background(0);
-  fill(#FFE7A0);
-  noStroke();
-  circle(width/2, height/2, 40);
   strokeWeight(1);
 }
 
