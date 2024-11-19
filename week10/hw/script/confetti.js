@@ -1,13 +1,19 @@
 class Confetti {
   constructor(x, y, w, h, colour, force, angForce) {
-    this.pos = [x, y];
-    this.vel = [0, 0];
-    this.size = [w, h];
+    this.pos = [];
+    this.vel = [];
+    this.size = [];
 
     this.init(x, y, w, h, colour, force, angForce);
   }
 
   init(x, y, w, h, colour, force, angForce) {
+    this.pos[0] = x;
+    this.pos[1] = y;
+
+    this.size[0] = w;
+    this.size[1] = h;
+
     this.colour = colour;
 
     let randomDir = radians(random(360));
