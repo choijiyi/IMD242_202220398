@@ -16,7 +16,7 @@ function gen(x, y, n) {
     let randomH = random(4, 20);
     let randomForce = random(1, 10);
     let randomAngForce = random(-30, 30);
-    newConfetti = new Confetti(
+    let newConfetti = new Confetti(
       x,
       y,
       randomW,
