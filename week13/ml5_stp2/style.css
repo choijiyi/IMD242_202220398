@@ -1,0 +1,25 @@
+:root {
+  --fWeight: 500;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 36px;
+  font-optical-sizing: auto;
+  font-weight: var(--fWeight);
+  font-style: normal;
+  font-variation-settings: 'wdth' 100, 'YTLC' 500;
+}
+
+/* css에도 variable기능이 있다. (실시간으로 변하는) */
+/* css에서는 변수이름을 정할 때 -- 로 시작해야 한다. */
